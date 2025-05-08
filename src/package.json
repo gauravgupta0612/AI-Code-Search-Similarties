@@ -13,7 +13,7 @@
   "activationEvents": [
     "onCommand:aiSearchSimilarities.start"
   ],
-  "main": "./extension.ts",
+  "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
