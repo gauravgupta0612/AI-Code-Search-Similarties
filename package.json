@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.15.16",
+    "@types/vscode": "^1.99.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

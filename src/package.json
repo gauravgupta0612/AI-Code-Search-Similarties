@@ -1,0 +1,26 @@
+{
+  "name": "ai-search-similarities",
+  "displayName": "AI Search Similarities",
+  "description": "An extension to search for code similarities using AI.",
+  "version": "1.0.0",
+  "publisher": "Gaurav Gupta",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aiSearchSimilarities.start"
+  ],
+  "main": "./extension.ts",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiSearchSimilarities.start",
+        "title": "Start AI Search Similarities"
+      }
+    ]
+  },
+  "dependencies": {}
+}
